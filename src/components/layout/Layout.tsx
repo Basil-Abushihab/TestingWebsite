@@ -5,10 +5,12 @@ import { SidebarProvider } from "@/components/ui/sidebar";
 export const Layout = ({ children }: React.PropsWithChildren) => {
   return (
     <SidebarProvider >
-      <SideBar />
+     
+        <SideBar />
+     
       <div className="flex flex-col w-full">
       <TopBar />
-      <main>
+      <main className="w-full flex justify-center">
         {children}
       </main>
       </div>
