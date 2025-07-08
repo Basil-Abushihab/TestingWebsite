@@ -1,0 +1,33 @@
+.links {
+    position: relative;
+}
+
+.links::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background-color: #FFD013;
+    width: 0;
+    height: 2px;
+    transition: all 100ms;
+}
+
+.links::after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    background-color: #FFD013;
+    width: 0;
+    height: 2px;
+    transition: all 100ms;
+}
+
+.links:hover::before {
+    width: 50%;
+}
+
+.links:hover::after {
+    width: 50%;
+}

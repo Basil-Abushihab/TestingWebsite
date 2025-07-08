@@ -1,0 +1,7 @@
+{
+  "navigationLinks": [
+    { "label": "Home", "path": "/" },
+    { "label": "Test Browser", "path": "/test-browser" },
+    { "label": "My Tests", "path": "/my-tests" }
+  ]
+}

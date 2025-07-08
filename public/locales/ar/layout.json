@@ -1,0 +1,7 @@
+{
+  "navigationLinks": [
+    { "label": "الرئيسية", "path": "/" },
+    { "label": "اختبار المتصفح", "path": "/test-browser" },
+    { "label": "اختباراتي", "path": "/my-tests" }
+  ]
+}

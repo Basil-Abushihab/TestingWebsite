@@ -275,7 +275,7 @@ function SidebarTrigger({
       }}
       {...props}
     >
-      <TriggerImage />
+      <TriggerImage className="text-white" />
       <span className="sr-only">Toggle Sidebar</span>
     </Button>
   )
