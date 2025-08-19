@@ -2,7 +2,7 @@ import { Route } from "@/routing/models/types";
 
 export const privateRoutes: Route[] = [
   {
-    path: "/hello",
+    path: "/",
     element: <></>,
     isPrivate: true,
   },
